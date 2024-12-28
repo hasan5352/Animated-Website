@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "General Sans";
+    background-color: black;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+a, .circle, #nav h3{
+    cursor: pointer;
+}
+
+#minicircle{
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: aqua;
+    position: absolute;
+    z-index: 9999;
+    background-color: white;
+}
+
+#main{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+
+/* Home page */
+#homepg{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 40px;
+    font-size: 1rem;
+}
+#nav h3{
+    font-size: 0.85rem;
+}
+
+#heading{
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.boundel{
+    transform: translateY(100%);
+}
+.bound{
+    width: fit-content;
+    /* background-color: red; */
+    overflow: hidden;
+}
+#heading h1{
+    font-family: "General Sans Medium";
+    font-size: 9vw;
+    letter-spacing: 0.3rem;
+    line-height: 1;
+    opacity: 0.6;
+}
+#blocktext{
+    width: fit-content;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+#blocktext #second-h1{
+    margin-left: 200px;
+}
+#blocktext h5{
+    text-align: right;
+    margin-top: .5rem;  
+}
+
+#smallheadings{
+    text-transform: uppercase;
+    margin-top: 9rem;
+    padding-right: 30px;
+}
+#smallheadings h5{
+    text-align: right;
+    line-height: 1.3rem;
+    font-size: 1vw;
+}
+
+#home-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2vw 0 3vw;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: .9rem;
+    position: absolute;
+    bottom: 4%;
+    width: 100%;
+}
+#home-footer #iconset{
+    display: flex;
+}
+#iconset .circle{
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    background-color: grey;
+    justify-content: center;
+}
+#iconset .circle i{
+    color: black;
+    background-color: inherit;
+}
+
+/* PAGE 2 */
+
+#page2{
+    width: 100%;
+    padding: 9vw 9.7vw 5px 3vw;
+}
+.elem{
+    width: 100%;
+    border-top: 1px solid #888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 0 3vw 0;
+    position: relative;
+}
+.elemlast{
+    border-bottom: 1px solid #888;
+}
+.elem h1{
+    font-family: "General Sans Medium";
+    font-size: 7vw;
+    letter-spacing: 0.2rem;
+    opacity: 0.6;
+    text-transform: uppercase;
+}
+.elem img{
+    position: absolute;
+    z-index: 99;
+    height: 20vw;
+    width: 24vw;
+    display: none;
+}
+
+/* about section */
+
+#about{
+    width: 100%;
+    padding: 10vw 13vw 10vw 30vw;
+    display: flex;
+    gap: 5vw;
+}
+#aboutimg img{
+    width: 15vw;
+    height: 15vw;
+    border-radius: 50%;
+}
+
+#abouttext #aboutme{
+    opacity: 0.6;
+    margin-bottom: .7rem;
+    font-size: 14px;
+}
+
+/* linkedin */
+
+#linkedin{
+    text-transform: uppercase;
+    padding: 0 0 0 3vw;
+}
+#linkedin #small{
+    font-size: 12px;
+    opacity: .6;
+}
+#linkedin a{
+    line-height: 1.3rem;
+    font-size: 1vw;
+}
