@@ -5,6 +5,7 @@
     color: white;
     font-family: "General Sans";
     background-color: black;
+    cursor: default;
 }
 
 body{
@@ -47,7 +48,7 @@ a{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 30px 40px;
+    padding: 10px 40px;
     font-size: 1rem;
 }
 #nav h3{
@@ -89,6 +90,9 @@ a{
 }
 
 #smallheadings{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
     text-transform: uppercase;
     margin-top: 9rem;
     padding-right: 30px;
@@ -159,7 +163,7 @@ a{
     z-index: 99;
     height: 20vw;
     width: 24vw;
-    display: none;
+    opacity: 0;
 }
 
 /* about section */
