@@ -1,4 +1,5 @@
 # Animated Website
+- Access the website at: 
 1. Text slide-in animations
 2. Mouse trail effect
 3. interactive parallax effect
